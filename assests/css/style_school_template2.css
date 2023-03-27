@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-base: "Fredoka";
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    font-family: var(--font-base);
+    color: black;
+}
+.navbar-brand{
+    color: #135847;
+    width: 70px;
+    height: 50px;
+    font-family: var(--font-base);
+    text-transform: uppercase;
+    margin-left: 3rem;
+}
+.offcanvas{
+    background: rgba(252, 253, 253, 0.5);
+}
+.nav-link{
+    color: #135847;
+    font-size: 1rem;
+    margin: 0px 1rem;
+    text-transform: uppercase;
+    font-family: var(--font-base);
+    font-weight: 500;
+    
+}
+.navbar-nav .nav-link.active{
+    color: #135847;
+}
+.nav-link:hover{
+    color: rgb(160, 32, 74);
+}
+.navbar-nav .nav-link.active:hover{
+    color: rgb(160, 32, 74);
+}
+.navbar .ms-auto {
+    margin-left: 30px;
+}
+.navbar{
+    padding: 1rem 0px;
+    
+}
+.navbar-toggler{
+    margin: 0;
+}
+/*
+section{
+    border: 2px solid black;
+}
+.container, .row, .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.wave{
+    border: 2px solid solid black;
+}
+#overlap{
+    border: 2px solid black;
+}*/
+
+/*Slider*/
+
+.carousel-caption h2 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.carousel-caption p {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    /* text-shadow: 2px 2px 2px #000000; */
+}
+.carousel-caption h2 span {
+    color: #ffffff;
+    /* text-shadow: 2px 2px 2px #000000; */
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.carousel-caption {
+    position: absolute;
+    background-color: #00000079;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        
+        height: auto ;
+    }
+}
+.carousel-inner .carousel-item  > img {
+    -webkit-animation: thing 20s;
+    -o-animation: thing 20s;
+    animation: thing 20s;
+}
+
+@keyframes thing {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    border: 2px solid white;
+    
+    border-radius: 50%;
+    background-color: none;
+    padding: 2rem;
+}
+.slider-btn {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    margin-top: 410px;
+    left: 43%;
+    color: #ffffff;
+}
+.slider-btn:hover {
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 776px) {
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        height: 40vh ;
+    }
+}
+@media (min-width: 776px) and (max-width: 992px)
+{
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        height: 40vh ;
+    }
+}
+@media (min-width: 992px)
+{
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        height: 80vh ;
+    }
+}
+
+
+
+*/
+/*wave*/
+.wave{
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+/*about*/
+#about{
+    background: url('/assests/img/wave-haikei.svg');
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    
+}
+.btn-main{
+    border: 2px solid orange;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+}
+.btn-main:hover
+{
+    background-color: orange;
+    color: white;
+}
+
+#about .card{
+    padding: 1rem 2rem;
+    border: 2px dotted orange;
+}
+
+#about .card:hover{
+    background: linear-gradient(rgb(231, 199, 139),rgb(231, 199, 139),rgb(223, 181, 104));
+    border: 2px dotted rgb(231, 199, 139);
+}
+
+#about h4{
+    background: rgb(248, 248, 188);
+    padding: 3rem 1rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 776px){
+    #about h4{
+        background: lightsalmon;
+        
+        font-size: 10px;
+        
+    }
+    .share{
+        text-align: center;
+    }
+    .footer .col-md-3 .ql{
+        
+        text-align: center;
+    }
+    .footer .col-md-3 .ul{
+        text-align: center;
+    }
+    .footer .col-md-3{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #overlap .card{
+    
+   
+        border: 2px dotted orange;
+       border-radius: 50px;
+       margin-top: 0px;
+    }  
+    
+}
+
+/*Features*/
+#features{
+    background: url('/assests/img/blob-scatter-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0px;
+}
+
+#features .card{
+    padding: 2rem 2rem;
+    text-align: center;
+    box-shadow: 1rem 1rem 0.5rem rgb(241, 188, 88);
+    border: 1px solid orange;
+    border-radius: 50px 0px 50px 0px;
+}
+
+/*Footer*/
+.footer{
+    background: linear-gradient(#f0dfcd,#f0d39e,#e79f6e);
+}
+.footer a{
+    text-decoration: none;
+    color: black ;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: var(--font-heading);
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.footer .share i{
+    font-size: 30px;
+    margin: 0px 5px;
+}
+.footer .share i:hover{
+    color: white;
+}
+.footer .btn{
+    margin-top: 1rem;
+    
+    border: 2px solid orange;
+    color: black;
+    font-weight: 500;
+}
+.footer .btn:hover{
+    background: orange;
+    color: white;
+}
+.footer .credit{
+    text-align: center;
+    text-transform: capitalize;
+   
+    padding: 2rem 0rem;
+    border-top: 2px solid white;
+}
+.footer .credit span{
+    font-weight: 600;
+    color: white;;
+}
+
+/*contact*/
+#contact{
+    background: url('/assests/img/blob-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0px;
+}
+
+
+#overlap a{
+    text-decoration: none;
+    color: orange;
+    
+}
+
+#overlap i{
+    font-size: 50px;
+    
+}
+@media(min-width: 776px){
+    #overlap .card{
+        border: 2px dotted orange;
+       border-radius: 50px;
+       margin-top: -150px;
+    }
+    #overlap ul{
+        margin-left: -30px;
+    }
+}
+
+@media(min-width: 992px){
+    #overlap .card{
+        border: 2px dotted orange;
+       border-radius: 50px;
+       margin-top: -250px;
+    }
+}
+#overlap p{
+     font-size: 30px;
+}
+   
+
+.input-container{
+    
+    position: relative;
+    align-items: center;
+    
+}
+.label{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    transition: all 0.2s;
+    padding: 0.2px;
+    z-index: 1;
+    color: white;
+}
+.text-input{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid orange;
+    background: rgb(243, 179, 61);
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: white;
+}
+
+.label::before{
+    content: "";
+    height: 5px;
+    background-color: rgb(243, 179, 61);
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.text-input:focus{
+    border: 2px solid orange;
+}
+
+.text-input:focus + .label, .filled{
+    top: -10px;
+    color: black;
+    font-size: 14px;
+}
+.text-input:focus ~ .text-input, .text-input:not(:placeholder-shown).text-input:not(:focus) ~ .label {
+    top: -10px;
+    color: white;
+    font-size: 14px;
+}
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.text-input:focus::placeholder{
+    opacity: 1;
+    animation-delay: 0.2s;
+}
+.input-container{
+    margin-bottom: 5px;
+}
+
+#overlap li{
+    list-style: none;
+    width: 100px;
+}
+#overlap span{
+    text-align: center;
+    justify-content: center;
+}
+#overlap .col-md-12 i{
+    color: orange;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 2rem 0px;
+}
+#overlap span h2{
+    padding-bottom: 2rem;
+}
+
+
+/*Galler*/
+
+#blog{
+    
+    padding: 2rem 0px;
+}
+#blog .card{
+    flex: 1 1 21rem;
+    border: 2px double orange;
+    border-radius: 0px 0px 5rem 0px;
+    align-self: normal;
+    flex-wrap: wrap;
+}
+#blog .card:hover{
+    background: rgb(248, 201, 114);
+    color: white;
+}
+#blog .card h5{
+    text-transform: uppercase;
+}
+#blog .card-img-top{
+    height: 38vh;
+}
+@media (min-width: 776px) and (max-width: 992px)
+{
+    #blog .card-img-top{
+        height: 10vh;
+    }
+    #blog .btn-main{
+        font-size: 0.7rem;
+        padding: 0.2rem 0.2rem;
+    }
+    #overlap ul{
+        margin-left: 0px;
+    }
+    .owl-carousel .img-fluid{
+        height: 10vh;
+    }
+}
+.owl-carousel .item img{
+    border: 2px dashed orange;
+    height: 30vh;
+    border-radius: 10px;
+}
+
