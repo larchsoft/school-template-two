@@ -5,15 +5,22 @@
     padding: 0;
 }
 
-:root{
+:root {
     --font-base: "Fredoka";
 }
-h1,h2,h3,h4,h5,h6,p
-{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-family: var(--font-base);
     color: black;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #135847;
     width: 70px;
     height: 50px;
@@ -21,37 +28,46 @@ h1,h2,h3,h4,h5,h6,p
     text-transform: uppercase;
     margin-left: 3rem;
 }
-.offcanvas{
+
+.offcanvas {
     background: rgba(252, 253, 253, 0.5);
 }
-.nav-link{
+
+.nav-link {
     color: #135847;
     font-size: 1rem;
     margin: 0px 1rem;
     text-transform: uppercase;
     font-family: var(--font-base);
     font-weight: 500;
-    
+
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
     color: #135847;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(160, 32, 74);
 }
-.navbar-nav .nav-link.active:hover{
+
+.navbar-nav .nav-link.active:hover {
     color: rgb(160, 32, 74);
 }
+
 .navbar .ms-auto {
     margin-left: 30px;
 }
-.navbar{
+
+.navbar {
     padding: 1rem 0px;
-    
+
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin: 0;
 }
+
 /*
 section{
     border: 2px solid black;
@@ -76,6 +92,7 @@ section{
     color: #ffffff;
     text-transform: uppercase;
 }
+
 .carousel-caption p {
     position: absolute;
     margin-top: 320px;
@@ -87,12 +104,14 @@ section{
     color: #ffffff;
     /* text-shadow: 2px 2px 2px #000000; */
 }
+
 .carousel-caption h2 span {
     color: #ffffff;
     /* text-shadow: 2px 2px 2px #000000; */
     font-size: 50px;
     text-transform: uppercase;
 }
+
 .carousel-caption {
     position: absolute;
     background-color: #00000079;
@@ -103,18 +122,20 @@ section{
     top: 0;
     right: 0;
 }
+
 #carouselExampleCaptions .carousel-inner .carousel-item img {
     height: 100vh;
     width: 100%;
 }
 
 @media (max-width: 800px) {
-    #carouselExampleCaptions .carousel-inner .carousel-item img{
-        
-        height: auto ;
+    #carouselExampleCaptions .carousel-inner .carousel-item img {
+
+        height: auto;
     }
 }
-.carousel-inner .carousel-item  > img {
+
+.carousel-inner .carousel-item>img {
     -webkit-animation: thing 20s;
     -o-animation: thing 20s;
     animation: thing 20s;
@@ -124,17 +145,21 @@ section{
     from {
         transform: scale(1, 1);
     }
+
     to {
         transform: scale(1.5, 1.5);
     }
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     border: 2px solid white;
-    
+
     border-radius: 50%;
     background-color: none;
     padding: 2rem;
 }
+
 .slider-btn {
     border: 1px solid #ff0000;
     background-color: #ff0000;
@@ -148,6 +173,7 @@ section{
     left: 43%;
     color: #ffffff;
 }
+
 .slider-btn:hover {
     border: 1px solid #ff0000;
     background-color: #ffffff;
@@ -164,28 +190,29 @@ section{
 
 
 @media (max-width: 776px) {
-    #carouselExampleCaptions .carousel-inner .carousel-item img{
-        height: 40vh ;
+    #carouselExampleCaptions .carousel-inner .carousel-item img {
+        height: 40vh;
     }
 }
-@media (min-width: 776px) and (max-width: 992px)
-{
-    #carouselExampleCaptions .carousel-inner .carousel-item img{
-        height: 40vh ;
+
+@media (min-width: 776px) and (max-width: 992px) {
+    #carouselExampleCaptions .carousel-inner .carousel-item img {
+        height: 40vh;
     }
 }
-@media (min-width: 992px)
-{
-    #carouselExampleCaptions .carousel-inner .carousel-item img{
-        height: 80vh ;
+
+@media (min-width: 992px) {
+    #carouselExampleCaptions .carousel-inner .carousel-item img {
+        height: 80vh;
     }
 }
 
 
 
 */
+
 /*wave*/
-.wave{
+.wave {
     position: absolute;
     bottom: 0;
 
@@ -193,35 +220,36 @@ section{
 
 
 /*about*/
-#about{
+#about {
     background: url('/assests/img/wave-haikei.svg');
     background-repeat: no-repeat;
     justify-content: center;
     background-size: cover;
-    
+
 }
-.btn-main{
+
+.btn-main {
     border: 2px solid orange;
     padding: 0.5rem 2rem;
     border-radius: 50px;
 }
-.btn-main:hover
-{
+
+.btn-main:hover {
     background-color: orange;
     color: white;
 }
 
-#about .card{
+#about .card {
     padding: 1rem 2rem;
     border: 2px dotted orange;
 }
 
-#about .card:hover{
-    background: linear-gradient(rgb(231, 199, 139),rgb(231, 199, 139),rgb(223, 181, 104));
+#about .card:hover {
+    background: linear-gradient(rgb(231, 199, 139), rgb(231, 199, 139), rgb(223, 181, 104));
     border: 2px dotted rgb(231, 199, 139);
 }
 
-#about h4{
+#about h4 {
     background: rgb(248, 248, 188);
     padding: 3rem 1rem;
     border-radius: 50%;
@@ -229,46 +257,51 @@ section{
     align-items: center;
 }
 
-@media(max-width: 776px){
-    #about h4{
+@media(max-width: 776px) {
+    #about h4 {
         background: lightsalmon;
-        
+
         font-size: 10px;
-        
+
     }
-    .share{
+
+    .share {
         text-align: center;
     }
-    .footer .col-md-3 .ql{
-        
+
+    .footer .col-md-3 .ql {
+
         text-align: center;
     }
-    .footer .col-md-3 .ul{
+
+    .footer .col-md-3 .ul {
         text-align: center;
     }
-    .footer .col-md-3{
+
+    .footer .col-md-3 {
         margin-bottom: 20px;
         text-align: center;
     }
-    #overlap .card{
-    
-   
+
+    #overlap .card {
+
+
         border: 2px dotted orange;
-       border-radius: 50px;
-       margin-top: 0px;
-    }  
-    
+        border-radius: 50px;
+        margin-top: 0px;
+    }
+
 }
 
 /*Features*/
-#features{
+#features {
     background: url('/assests/img/blob-scatter-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 0px;
 }
 
-#features .card{
+#features .card {
     padding: 2rem 2rem;
     text-align: center;
     box-shadow: 1rem 1rem 0.5rem rgb(241, 188, 88);
@@ -277,53 +310,65 @@ section{
 }
 
 /*Footer*/
-.footer{
-    background: linear-gradient(#f0dfcd,#f0d39e,#e79f6e);
+.footer {
+    background: linear-gradient(#f0dfcd, #f0d39e, #e79f6e);
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
-    color: black ;
+    color: black;
     font-weight: 600;
     font-size: 1rem;
     font-family: var(--font-heading);
 }
 
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
     color: orange;
 }
-.footer .share i{
+
+.footer .share i {
     font-size: 30px;
     margin: 0px 5px;
 }
-.footer .share i:hover{
+
+.footer .share i:hover {
     color: white;
 }
-.footer .btn{
+
+.footer .btn {
     margin-top: 1rem;
-    
+
     border: 2px solid orange;
     color: black;
     font-weight: 500;
 }
-.footer .btn:hover{
+
+.footer .btn:hover {
     background: orange;
     color: white;
 }
-.footer .credit{
+
+.footer .credit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
     text-transform: capitalize;
-   
+
     padding: 2rem 0rem;
     border-top: 2px solid white;
 }
-.footer .credit span{
+
+.footer .credit span {
     font-weight: 600;
-    color: white;;
+    color: white;
+    ;
 }
 
 /*contact*/
-#contact{
+#contact {
     background: url('/assests/img/blob-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,46 +376,50 @@ section{
 }
 
 
-#overlap a{
+#overlap a {
     text-decoration: none;
     color: orange;
-    
+
 }
 
-#overlap i{
+#overlap i {
     font-size: 50px;
-    
+
 }
-@media(min-width: 776px){
-    #overlap .card{
+
+@media(min-width: 776px) {
+    #overlap .card {
         border: 2px dotted orange;
-       border-radius: 50px;
-       margin-top: -150px;
+        border-radius: 50px;
+        margin-top: -150px;
     }
-    #overlap ul{
+
+    #overlap ul {
         margin-left: -30px;
     }
 }
 
-@media(min-width: 992px){
-    #overlap .card{
+@media(min-width: 992px) {
+    #overlap .card {
         border: 2px dotted orange;
-       border-radius: 50px;
-       margin-top: -250px;
+        border-radius: 50px;
+        margin-top: -250px;
     }
 }
-#overlap p{
-     font-size: 30px;
-}
-   
 
-.input-container{
-    
+#overlap p {
+    font-size: 30px;
+}
+
+
+.input-container {
+
     position: relative;
     align-items: center;
-    
+
 }
-.label{
+
+.label {
     position: absolute;
     left: 10px;
     top: 14px;
@@ -379,7 +428,8 @@ section{
     z-index: 1;
     color: white;
 }
-.text-input{
+
+.text-input {
     padding: 0.8rem;
     width: 100%;
     height: 100%;
@@ -392,7 +442,7 @@ section{
     color: white;
 }
 
-.label::before{
+.label::before {
     content: "";
     height: 5px;
     background-color: rgb(243, 179, 61);
@@ -402,95 +452,111 @@ section{
     width: 100%;
     z-index: -1;
 }
-.text-input:focus{
+
+.text-input:focus {
     border: 2px solid orange;
 }
 
-.text-input:focus + .label, .filled{
+.text-input:focus+.label,
+.filled {
     top: -10px;
     color: black;
     font-size: 14px;
 }
-.text-input:focus ~ .text-input, .text-input:not(:placeholder-shown).text-input:not(:focus) ~ .label {
+
+.text-input:focus~.text-input,
+.text-input:not(:placeholder-shown).text-input:not(:focus)~.label {
     top: -10px;
     color: white;
     font-size: 14px;
 }
-.text-input::placeholder{
+
+.text-input::placeholder {
     font-size: 16px;
     opacity: 0;
     transition: all 0.3s;
 }
 
-.text-input:focus::placeholder{
+.text-input:focus::placeholder {
     opacity: 1;
     animation-delay: 0.2s;
 }
-.input-container{
+
+.input-container {
     margin-bottom: 5px;
 }
 
-#overlap li{
+#overlap li {
     list-style: none;
     width: 100px;
 }
-#overlap span{
+
+#overlap span {
     text-align: center;
     justify-content: center;
 }
-#overlap .col-md-12 i{
+
+#overlap .col-md-12 i {
     color: orange;
     font-size: 2rem;
     text-transform: capitalize;
     padding: 2rem 0px;
 }
-#overlap span h2{
+
+#overlap span h2 {
     padding-bottom: 2rem;
 }
 
 
 /*Galler*/
 
-#blog{
-    
+#blog {
+
     padding: 2rem 0px;
 }
-#blog .card{
+
+#blog .card {
     flex: 1 1 21rem;
     border: 2px double orange;
     border-radius: 0px 0px 5rem 0px;
     align-self: normal;
     flex-wrap: wrap;
 }
-#blog .card:hover{
+
+#blog .card:hover {
     background: rgb(248, 201, 114);
     color: white;
 }
-#blog .card h5{
+
+#blog .card h5 {
     text-transform: uppercase;
 }
-#blog .card-img-top{
+
+#blog .card-img-top {
     height: 38vh;
 }
-@media (min-width: 776px) and (max-width: 992px)
-{
-    #blog .card-img-top{
+
+@media (min-width: 776px) and (max-width: 992px) {
+    #blog .card-img-top {
         height: 10vh;
     }
-    #blog .btn-main{
+
+    #blog .btn-main {
         font-size: 0.7rem;
         padding: 0.2rem 0.2rem;
     }
-    #overlap ul{
+
+    #overlap ul {
         margin-left: 0px;
     }
-    .owl-carousel .img-fluid{
+
+    .owl-carousel .img-fluid {
         height: 10vh;
     }
 }
-.owl-carousel .item img{
+
+.owl-carousel .item img {
     border: 2px dashed orange;
     height: 30vh;
     border-radius: 10px;
 }
-
